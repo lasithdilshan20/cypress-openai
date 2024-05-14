@@ -1,0 +1,26 @@
+{
+  "name": "cypress-openai",
+  "version": "1.0.0",
+  "description": "Developing an npm Cypress plugin that integrates OpenAI's ChatGPT can be a powerful tool for enhancing test automation. Here’s a general approach to creating such a plugin:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lasithdilshan20/cypress-openai.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lasithdilshan20/cypress-openai/issues"
+  },
+  "homepage": "https://github.com/lasithdilshan20/cypress-openai#readme",
+  "devDependencies": {
+    "cypress": "^13.9.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "openai": "^4.46.1"
+  }
+}
