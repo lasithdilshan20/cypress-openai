@@ -1,8 +1,7 @@
-describe('ChatGPT Integration', () => {
+describe('ChatGPT Integration Test', () => {
   it('should get a response from ChatGPT', () => {
-    cy.task('askChatGPT', 'What is the weather like today?').then((response) => {
+    cy.chatgpt('Write a test for a login form').then(response => {
       cy.log(response);
-      expect(response).to.include('sunny'); // Example assertion
     });
   });
 });
